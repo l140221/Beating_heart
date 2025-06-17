@@ -180,8 +180,8 @@ if __name__ == '__main__':
     canvas.pack()
     heart = Heart()
     draw(root, canvas, heart)
-    Label(root,text="Author", bg="black",fg = "#FF69B4",).place(relx = .5,rely =.5,anchor = CENTER)
+    Label(root,text="赵找找", bg="black",fg = "#FF69B4",).place(relx = .5,rely =.5,anchor = CENTER)
     # 在爱心中间加上字
-    Label(root, text="点燃我 温暖你", bg="black", fg="#FF69B4", font =('宋体',18) ).place(relx=.50, rely=.1, anchor=CENTER)
+    #Label(root, text="点燃我 温暖你", bg="black", fg="#FF69B4", font =('宋体',18) ).place(relx=.50, rely=.1, anchor=CENTER)
     # 在爱心上面加上字
     root.mainloop()
